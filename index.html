@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="sneha.css" />
+    <link rel="stylesheet" href="med.css" />
+  </head>
+  <body>
+    
+      <div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sneha Karn</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="sneha.png"alt="Sneha Karn profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sneha Karn</h1>
+        <p class="section__text__p2">Java Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('resume.pdf')"
+          >
+            Download Resume
+          </button>
+
+          <button class="btn btn-color-2" onclick="location.href='https://unseenrealmarine.blogspot.com/2024/03/underwater-mysteries-and-truth-of.html'">
+      
+          My Blog
+        </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkdin_blue.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/snehakrn12/'"
+          />
+          
+          <img
+            src="github_black.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Snehakrn'"
+          />
+        </div>
+      </div>
+
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+
+
+      <div class="text-container">
+        <p>
+          I am an Engineering student having knowledge in the field of computer science engineering and the public speaking roles. I own a very few certifications being queued as  Google certification in the field of digital marketing , some of the hackathon certificate and an attendee of the recent Techfest held at IIT Bombay 2022. I am currently pursuing my summer internships and further looking for JAVA & DSA as well.
+
+Being the eldest child in the family I have always been a learner and never hesitated taking a multiple roles and responsibilities either at the professional or at the personal level. It is well said that half knowledge leads to your downfall and the only way to save yourself is to learn and grow , which is the basic principle I follow.
+
+We cant work for straight 24 hours, can we? you may find me reading a new book series in a corner holding a cup of tea , writing my own poems and stories or having random conversation with myself. you may contact me on snehakrn.96@gmail.com for further "about" section. Should I book a cup of tea for you as well?
+      </div>
+      
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-containerr">
+              <img
+                src="school.png"
+                alt="School icon"
+                class="icon"
+              />
+              <h3>School</h3>
+              <p>St. Norbert Senior Secondary School, Indore<br />10th - 2019 (Grade - 93.6%)<br />12th - 2021 (Grade - 84.8%)</p>
+            </div>
+            <div class="details-containerr">
+              <img
+                src="colloge.png"
+                alt="colloge icon"
+                class="icon"
+              />
+              <h3>College</h3>
+              <p>IES IPS Academy, Indore<br />B.tech with CSE Core<br>2021 - 2025</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+   
+    </section>
+    <section id="Skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+          
+            <div class="article-container">
+              <article class="article-container-1">
+                <img
+                  src="HTML.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="CSS.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article >
+                <img
+                  src="js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <br>
+              <article>
+                <img
+                  src="sql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="java.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+         
+            </div>
+          </div>
+      </div>
+   
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+          src="arrow.png"
+          alt="Profile picture"
+          class="about-pic"
+        />
+        </div>
+
+
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">PROJECTS</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="heart.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Heart Disease Prediction</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Snehakrn/HEART_DISEASE_PREDICTION'"
+              >
+                Github Repo
+              </button>
+
+              >
+                 
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="website.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">E-Commerce Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Snehakrn/E-Commerce-Website'"
+              >
+                Github Repo
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="chat.jpg"
+                alt="Project 3"
+                class="project-img-2"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Chat App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Snehakrn/Chat-App'"
+              >
+                Github Repo
+              </button>
+        
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="ninja.png"
+                alt="Project 4"
+                class="project-img-2"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Task Ninja</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Snehakrn/Task-Ninja'"
+              >
+                Github Repo
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <section id="projects">
+        <p class="section__text__p1">Click here to Read Story</p>
+        <h1 class="title">About My Interest</h1>
+        <div class="skills-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="sky.png"
+                  alt="Project 1"
+                  class="ff-img"
+                />
+              </div>
+              <h2 class="skills-sub-title project-title">My BOOK</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('book.pdf')"
+                >
+                  View Story
+             </section>
+             <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+           <h1 class="title">Contact Me</h1>
+         <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:karnsneha2003@gmail.com">karnsneha2003@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="twitter.png"
+            alt="twitter icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://twitter.com/snehakrn_12">twitter</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Sneah Karn. All Rights Reserved.</p>
+    </footer>
+    <script src="sneha.js"></script>
+  </body>
+</html>
